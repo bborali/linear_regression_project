@@ -64,7 +64,7 @@ c3=sp$Low
 y_c=sp$`Close/Last`
 C=cbind(c1,c2,c3)
 
-
+### model-summary-anova
 # create full model for amazon
 model_a=lm(y_a~a1+a2+a3)
 summary(model_a)
@@ -85,4 +85,5 @@ anova(model_b_p)
 model_c=lm(y_c~c1+c2+c3)
 summary(model_c)
 anova(model_c)
+
 
